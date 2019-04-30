@@ -11,7 +11,7 @@ class HelloApiView(APIView):
     """
     Test API View
     """
-    serializers_class = serializers.HelloSerializer
+    serializer_class = serializers.HelloSerializer
     def get(self, request, format=None):
         """
         Returns a list of APIView features
@@ -38,3 +38,21 @@ class HelloApiView(APIView):
 
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def put(self, request, pk=None):
+        """
+        Handles updating an object
+        """
+        return Response({'method': 'put'})
+
+    def patch(self, request, pk=None):
+        """
+        Partially updates an object
+        """
+        return Response({'method': 'patch'})
+
+    def delete(self, request, pk=None):
+        """
+        Deletes an object
+        """
+        return Response({'method': 'delete'})
