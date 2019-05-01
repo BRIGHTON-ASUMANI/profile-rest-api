@@ -4,7 +4,7 @@ class UpdateOwnProfile(permissions.BasePermission):
     """
     Allows users to edit their own profile
     """
-    def has_object_permissions(self, request, view, obj):
+    def has_object_permission(self, request, view, obj):
         """
         check user is trying to edit their own profile
         """
