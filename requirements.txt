@@ -71,3 +71,4 @@ validators==0.12.4
 Werkzeug==0.14.1
 whitenoise==4.1
 wrapt==1.11.1
+uWSGI==2.0.15
