@@ -12,7 +12,7 @@ coverage==4.5.2
 coveralls==1.5.1
 decorator==4.3.2
 dj-database-url==0.5.0
-Django==1.11
+Django==1.11.29
 django-bitfield==1.9.3
 django-bootstrap3==11.0.0
 django-geo==0.8
