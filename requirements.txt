@@ -25,7 +25,7 @@ django-scheduler==0.8.8
 django-separatedvaluesfield==0.6.0
 django-timezone-field==3.0
 django-uuidfield==0.5.0
-djangorestframework==3.6.2
+djangorestframework==3.11.2
 docopt==0.6.2
 execnet==1.5.0
 gunicorn==19.9.0
